@@ -20,13 +20,14 @@ class RawRequestCommand extends BaseCommand {
     {
         $this
             ->setName('gocardless-enterprise:raw-request')
-            ->setDescription('Run any API call.');
+            ->setDescription('Run any API call. TODO - this feature is not complete');
     }
 
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         parent::execute( $input,  $output);
+
 
         //TODO - just hard coded at the moment, these should come from command line input or something.
         $endpoint = 'roles';
