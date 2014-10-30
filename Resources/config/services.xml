@@ -6,8 +6,8 @@
 
     <parameters>
          <parameter key="vouchedfor.gocardless_enterprise.private.curl_client.class">Guzzle\Http\Client</parameter>
-         <parameter key="vouchedfor.gocardless_enterprise.client.class">Vf\Bundle\GocardlessEnterpriseBundle\Entity\Client</parameter>
-         <parameter key="vouchedfor.gocardless_enterprise.exception_listener.class">Vf\Bundle\GocardlessEnterpriseBundle\EventListener\ExceptionListener</parameter>
+         <parameter key="vouchedfor.gocardless_enterprise.client.class">Vouchedfor\GocardlessEnterpriseBundle\Entity\Client</parameter>
+         <parameter key="vouchedfor.gocardless_enterprise.exception_listener.class">Vouchedfor\GocardlessEnterpriseBundle\EventListener\ExceptionListener</parameter>
     </parameters>
 
     <services>
