@@ -1,6 +1,7 @@
 <?php
 
-namespace Vf\Bundle\GocardlessEnterpriseBundle\Command;
+
+namespace Vouchedfor\GocardlessEnterpriseBundle\Command;
 
 use GoCardless\Enterprise\Exceptions\ApiException;
 use GoCardless\Enterprise\Model\CreditorBankAccount;

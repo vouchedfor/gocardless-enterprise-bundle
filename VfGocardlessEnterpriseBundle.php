@@ -1,6 +1,6 @@
 <?php
 
-namespace Vf\Bundle\GocardlessEnterpriseBundle;
+namespace Vouchedfor\GocardlessEnterpriseBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

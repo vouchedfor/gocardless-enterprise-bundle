@@ -1,6 +1,6 @@
 <?php
 
-namespace Vf\Bundle\GocardlessEnterpriseBundle\DependencyInjection;
+namespace Vouchedfor\GocardlessEnterpriseBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

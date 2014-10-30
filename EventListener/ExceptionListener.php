@@ -1,6 +1,6 @@
 <?php
 
-namespace Vf\Bundle\GocardlessEnterpriseBundle\EventListener;
+namespace Vouchedfor\GocardlessEnterpriseBundle\EventListener;
 
 use GoCardless\Enterprise\Exceptions\ApiException;
 use Symfony\Component\Console\Event\ConsoleExceptionEvent;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vf\Bundle\GocardlessEnterpriseBundle\Entity;
+namespace Vouchedfor\GocardlessEnterpriseBundle\Entity;
 
 use GoCardless\Enterprise\Client as BaseClient;
 
