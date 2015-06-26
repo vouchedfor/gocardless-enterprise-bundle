@@ -17,8 +17,8 @@
             <argument type="service" id="vouchedfor.gocardless_enterprise.private.curl_client" />
             <argument type="collection">
                 <argument key="baseUrl" >%vf_gocardless_enterprise.base_url%</argument>
-                <argument key="username">%vf_gocardless_enterprise.username%</argument>
-                <argument key="password" >%vf_gocardless_enterprise.password%</argument>
+                <argument key="token">%vf_gocardless_enterprise.access_token%</argument>
+                <argument key="webhook_secret" >%vf_gocardless_enterprise.password%</argument>
                 <argument key="gocardlessVersion" >%vf_gocardless_enterprise.gocardless_version%</argument>
                 <argument key="primaryCreditorId" >%vf_gocardless_enterprise.primary_creditor_id%</argument>
             </argument>
